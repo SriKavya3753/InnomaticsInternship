@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Assignment</title>
+    <style>
+        table {
+            width: 40%;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            padding: 5px;
+        }
+        .bg-yellow{
+            background-color: yellow;
+        }
+        .bg-gray{
+            background-color: grey;
+        }
+        .bg-pink{
+            background-color: pink;
+        }
+        .wide-cell{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr class="bg-yellow">
+            <th colspan="7">Final Examination Schedule - Fall 2008</th>
+        </tr>
+        <tr class="bg-yellow">
+            <th></th>
+            <th>Monday<br> Dec.15</th>
+            <th>Tueday <br> Dec.16</th>
+            <th>Wednesday <br> Dec.17</th>
+            <th>Thursday <br> Dec.18</th>
+            <th class="bg-pink wide-cell" colspan="2" rowspan="5">Home</th>
+        </tr>
+        <tr>
+            <th class="bg-gray">8:00 <br> a.m.</th>
+            <td>Data <br> Structures</td>
+            <td>Algorithms</td>
+            <td>Computer<br> Networks</td>
+            <td>Database <br> Systems</td>
+        </tr>
+        <tr>
+            <th class="bg-gray">10:00 <br> a.m.</th>
+            <td>Operating <br> System</td>
+            <td>Artificial<br> Intelligence</td>
+            <td>Software<br> Engineering</td>
+            <td>Web<br> Development</td>
+        </tr>
+        <tr>
+            <th class="bg-gray">1:00 <br> p.m.</th>
+            <td>Machine <br> Learning</td>
+            <td>Cyber<br> Security</td>
+            <td>Mobile <br>Computing</td>
+            <td>Human-<br>Computer<br>Interaction</td></tr>
+        <tr>
+            <th class="bg-gray">3:00 <br> p.m.</th>
+            <td>Big Data <br> Analytics</td>
+            <td>Cloud<br>Computing</td>
+            <td>Parallel<br>Computing</td>
+            <td>Computer<br>Graphics</td></tr>
+    </table>
+</body>
+</html>
