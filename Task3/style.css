@@ -21,7 +21,7 @@
 }
 #item-7{
     grid-area: nav;
-    min-height: 30px;
+    min-height: 40px;
     background-color: rgba(14, 88, 247, 0.753);
 }
 #item-1{
@@ -30,17 +30,17 @@
     background-color: rgba(100, 148, 237, 0.683);
 }
 #item-2{
-    min-height: 210px;
+    min-height: 150px;
     grid-area: feature1;
     background-color:rgba(184, 135, 11, 0.55);
 }
 #item-3{
-    min-height: 210px;
+    min-height: 150px;
     grid-area: feature2;
     background-color:rgba(147, 112, 216, 0.598);
 }
 #item-4{
-    min-height: 210px;
+    min-height: 150px;
     grid-area: feature3;
     background-color:rgba(220, 20, 60, 0.541);
 }
@@ -56,9 +56,8 @@
 }
 
 /* Responsive Design for mobile and tablet */
-@media (max-width:400px){
+@media (max-width:600px){
     .container{
-        display: grid;
         grid-template-areas:
             "nav" 
             "header"
@@ -72,7 +71,7 @@
         min-height: 100px;
     }
 }
-@media (max-width:800px){
+@media (min-width:601px) and (max-width:1023px){
     .container{
         grid-template-areas: 
             "nav nav"
